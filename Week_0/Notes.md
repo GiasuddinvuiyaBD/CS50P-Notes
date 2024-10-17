@@ -8,6 +8,7 @@
 ## Lecture 0 📚
 
 - [Creating Code with Python 🚀](#creating-code-with-python)
+- [Functions](#functions)
 
 
 --- 
@@ -85,3 +86,16 @@ hello, world
 The results of running the `python.py` program is `hello, world`. 
 
 🎉 **Congrats!** You’ve just written and run your first Python program!
+
+--- 
+## Functions 🛠️
+
+Functions are like actions (or verbs) that a computer or programming language already knows how to perform. 
+
+They allow you to tell the computer what to do in a clear and efficient way.
+
+
+For example, in your `hello.py` program, the `print()` function is designed to display text or output directly in the terminal window.
+
+
+
