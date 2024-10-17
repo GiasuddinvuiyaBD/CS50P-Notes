@@ -7,12 +7,13 @@
 --- 
 ## Lecture 0 📚
 
-- [Creating Code with Python 🚀](#creating-code-with-python)
-- [Functions](#functions)
+- [Creating Code with Python](#creating-code-with-python-✨)
+- [Functions](#functions-🛠️)
 
 
 --- 
 ## Creating Code with Python ✨
+
 
 To write and run Python programs, you’ll need a code editor, which is sometimes referred to as an IDE (Integrated Development Environment). In this course, we’ll be using **Visual Studio Code (VS Code)**, a popular and easy-to-use editor.
 
@@ -88,6 +89,7 @@ The results of running the `python.py` program is `hello, world`.
 🎉 **Congrats!** You’ve just written and run your first Python program!
 
 --- 
+
 ## Functions 🛠️
 
 Functions are like actions (or verbs) that a computer or programming language already knows how to perform. 
