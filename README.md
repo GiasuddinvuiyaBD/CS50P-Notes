@@ -12,7 +12,7 @@ This repository contains my notes, exercises, and additional resources from the 
 
 ## Weeks Covered
 1. [Week 0 - Function, Variables](Week_0/Notes.md)
-2. [Week 2 - Arrays](Week_2/Notes.md)
+1. [Week 2 - Arrays](Week_2/Notes.md)
 
 
 ## How to Use
