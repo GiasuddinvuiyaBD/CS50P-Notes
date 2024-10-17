@@ -99,5 +99,7 @@ They allow you to tell the computer what to do in a clear and efficient way.
 
 For example, in your `hello.py` program, the `print()` function is designed to display text or output directly in the terminal window.
 
+## Bugs
 
+Bugs are a natural part of coding. These are mistakes, problems for you to solve! Don’t get discouraged! This is part of the process of becoming a great programmer.
 
