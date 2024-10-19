@@ -11,6 +11,15 @@
 - [Functions](#functions)
 - [Bugs](#bugs)
 - [Improving Your First Python Program](#improving-your-first-python-program)
+- [Strings and Paremeters](#strings-and-paremeters)
+- [A small problem with quotation marks](#a-small-problem-with-quotation-marks)
+- [More on Strings](#more-on-strings)
+- [Integers or int](#integers-or-int)
+- [Readability Wins](#readability-wins)
+- [More on Floats](#more-on-floats)
+- [Def](#def)
+- [Main Function](#main-function)
+- [Returning Values](#returning-values)
 
 
 --- 
@@ -569,7 +578,7 @@ hello(name)
 hello()
 ```
 
-## main function
+## Main Function
 In Python, the main function serves as the entry point for a program. It’s a common convention to define a main function to encapsulate the primary logic of the script. By organizing code in a main function, you make your program more structured and easier to understand.
 
 Example: 
