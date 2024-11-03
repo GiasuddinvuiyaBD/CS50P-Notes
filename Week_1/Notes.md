@@ -17,6 +17,10 @@
 
 - [and](#and)
 
+- [Modulo](#modulo)
+
+- [Creating your own function](#creating-your-own-function)
+
 ##  Conditionals in Programming
 
 In every programming language, **Conditionals**  allow programmers to make **decisions** based on certain conditions.
@@ -46,6 +50,7 @@ When setting **mathematical conditions** in code, we use **operators** to compar
 
 Conditionals compare a **left-hand term** to a **right-hand term**. Using these operators, your program can choose different actions based on these comparisons! 🛤️✨
 
+--- 
 
 ## if Statements
 💡 **The `if` Keyword in Conditionals** 💡
@@ -70,6 +75,7 @@ if(temperature > 30):
 
 The `if` keyword lets you **control the flow** of your program, making it **flexible** and responsive! 🌐➡️🤔➡️🎉
 
+--- 
 
 ## Control Flow, elif, and else
 
@@ -173,6 +179,7 @@ This structure is concise and ensures only **one message** is printed based on t
 Our code can be represented as follows:
 ![else statement](images/else-statement.png)
 
+--- 
 
 ## Or 
 💡 **The `or` Operator** 💡
@@ -240,6 +247,9 @@ Notice that the`==` operator evaluates if what is on the left and right are equa
 **Our code can be illustrated as follows:**
 ![equal to image](images/equal-to.png)
 
+
+--- 
+
 ## and 
 
 💡 **The `and` Operator** 💡 
@@ -247,4 +257,192 @@ Notice that the`==` operator evaluates if what is on the left and right are equa
 Similar to the `or` operator, `and` is used to check multiple conditions. However, the key difference is that **all conditions must be true** for `and` to pass ✅. If even one **condition is false**, the whole check fails ❌.
 
 
+For example:
+```py 
+if age >= 18 and has_id:
+    print("You can enter! 🎟️")
+```
 
+Here, both `age >= 18` and `has_id` must be true for the message to print. The `and` operator is perfect for cases where **all criteria need to be met!** 🛂
+
+
+You can learn more in Python’s documentation on [control flow](https://docs.python.org/3/tutorial/controlflow.html).
+
+
+--- 
+
+
+## Modulo
+
+In mathematics, **parity** tells us if a number is **even** or **odd**.
+
+In programming, the **modulo (%) operator** helps check this:
+
+- `number % 2 == 0` ➔ The number is **even** (divides evenly by 2).
+
+- `number % 2 != 0` ➔ The number is **odd** (leaves a remainder).
+
+Example: 
+```py 
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+```
+This program will tell you if the entered number is **even** or **odd**!
+
+--- 
+
+## Creating your own function
+
+```py
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+main()
+```
+
+Our `if` statement `is_even(x)` works without an operator because the `is_even` function returns a **boolean** value (`True` or `False`). 
+
+
+When `is_even(x)` is called in `main`, it directly returns `True` if `x` is even or `False` if it’s odd. The `if` statement then evaluates this result:
+
+- **If** `True` ➔ it prints **"Even"**.
+- **If** `False` ➔ it prints **"Odd"**.
+
+
+--- 
+
+## Pythonic
+
+In programming, "Pythonic" refers to coding styles that are uniquely suited to Python. Pythonic code is clean, simple, and leverages Python’s strengths to make code more readable and efficient.
+
+**Example of `pythonic` code :**
+```py 
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+
+def is_even(n):
+    return True if n % 2 == 0 else False
+
+
+main()
+```
+
+Notice that this return statement in our code is almost like a sentence in English. This is a unique way of coding only seen in Python.
+
+Further improvement:
+```python
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+
+def is_even(n):
+    return n % 2 == 0
+
+
+main()
+```
+
+Notice that the program will evaluate what is happening within the` n % 2 == 0` as either `true` or `false` and simply return that to the main function.
+
+---
+
+## match 
+Similar to `if`, `elif`, and `else` statements, `match` statements can be used to conditionally run code that matches certain values.
+
+**Example of `match` :**
+
+```py 
+name = input("What's your name? ")
+
+  if name == "Harry":
+      print("Gryffindor")
+  elif name == "Hermione":
+      print("Gryffindor")
+  elif name == "Ron": 
+      print("Gryffindor")
+  elif name == "Draco":
+      print("Slytherin")
+  else:
+      print("Who?")
+```
+Notice the first three conditional statements print the same response.
+
+
+We can improve this code slightly with the use of the or keyword:
+```py 
+ name = input("What's your name? ")
+
+  if name == "Harry" or name == "Hermione" or name == "Ron": 
+      print("Gryffindor")
+  elif name == "Draco":
+      print("Slytherin")
+  else:
+      print("Who?")
+```
+
+Notice the number of elif statements has decreased, improving the readability of our code. 
+
+
+Alternatively, we can use match statements to map names to houses.
+
+```py 
+name = input("What's your name? ")
+
+match name: 
+    case "Harry":
+        print("Gryffindor")
+    case "Hermione":
+        print("Gryffindor")
+    case "Ron": 
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:
+        print("Who?")
+```
+
+Notice the use of the `_` symbol in the last case. This will match with any input, resulting in similar behavior as an else statement.
+
+
+A match statement compares the value following the match keyword with each of the values following the case keywords.
+
+Further improvement of match statement
+```py 
+name = input("What's your name? ")
+
+match name: 
+    case "Harry" | "Hermione" | "Ron":
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:
+        print("Who?")
+```
+Notice, the use of the single vertical bar `|`. Much like the `or` keyword, this allows us to check for multiple values in the same `case` statement.
+
+
+You now have the power within Python to use **conditional statements to ask questions** and have your program **take action accordingly**! With tools like `if` , `elif` , and `else`, your program can respond to different conditions and make decisions dynamically.
