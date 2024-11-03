@@ -13,6 +13,8 @@
 
 - [Control Flow, elif, and else](#control-flow-elif-and-else)
 
+- [Or](#or)
+
 ##  Conditionals in Programming
 
 In every programming language, **Conditionals**  allow programmers to make **decisions** based on certain conditions.
@@ -168,3 +170,74 @@ This structure is concise and ensures only **one message** is printed based on t
 
 Our code can be represented as follows:
 ![else statement](images/else-statement.png)
+
+
+## Or 
+💡 **The or Operator** 💡
+
+The `or` operator is super useful in programming! It allows you to check **multiple conditions** and proceeds if **any** one of them is true ✅. This is great for situations where you want to allow different options or actions.
+
+My Example: 
+```py
+if user_input == "yes" or user_input == "y":
+    print("Proceeding with the task! 🚀")
+else:
+    print("Try again for proceesding the program")
+```
+
+Here, `if` the user types either **"yes"** or **"y"**, the program will proceed Otherwise program run `else` part. The or operator helps make programs more flexible and responsive! 
+
+CS50P Notes Example: 
+```py
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x < y or x > y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
+```
+Explanation :
+- `if x < y or x > y:` This line uses the `or` operator to check if `x` is **either** less than or greater than `y`.
+    - **If either** condition is true ✅, it means `x` and `y` are **not equal** so it prints `"x is not equal to y"` ❌.
+
+- `else:` If neither condition is true, it means `x` must be equal to `y`, so it prints `"x is equal to y"` ✅.
+
+
+Further improvement 
+```py 
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x != y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
+```
+
+- `if x != y:` The `!=` operator checks if `x` is **not equal** to `y`.
+    - If this is true, it prints `"x is not equal to y"` ❌.
+
+- `else:` If `x` is equal to `y`, it prints `"x is equal to y"` ✅.
+
+This code is very efficient!
+
+We also can improve our code as follows. 
+```py 
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x == y:
+    print("x is equal to y")
+else:
+    print("x is not equal to y")
+```
+Notice that the`==` operator evaluates if what is on the left and right are equal to one another. If it is then run `"x is equal to y"` Otherwise `"x is not equal to y"`. 
+
+
+**Our code can be illustrated as follows:**
+![equal to image](images/equal-to.png)
+
+
+
+
