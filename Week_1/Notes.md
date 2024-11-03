@@ -15,6 +15,8 @@
 
 - [Or](#or)
 
+- [and](#and)
+
 ##  Conditionals in Programming
 
 In every programming language, **Conditionals**  allow programmers to make **decisions** based on certain conditions.
@@ -173,7 +175,7 @@ Our code can be represented as follows:
 
 
 ## Or 
-💡 **The or Operator** 💡
+💡 **The `or` Operator** 💡
 
 The `or` operator is super useful in programming! It allows you to check **multiple conditions** and proceeds if **any** one of them is true ✅. This is great for situations where you want to allow different options or actions.
 
@@ -238,6 +240,11 @@ Notice that the`==` operator evaluates if what is on the left and right are equa
 **Our code can be illustrated as follows:**
 ![equal to image](images/equal-to.png)
 
+## and 
+
+💡 **The `and` Operator** 💡 
+
+Similar to the `or` operator, `and` is used to check multiple conditions. However, the key difference is that **all conditions must be true** for `and` to pass ✅. If even one **condition is false**, the whole check fails ❌.
 
 
 
