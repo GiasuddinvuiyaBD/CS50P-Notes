@@ -445,4 +445,4 @@ match name:
 Notice, the use of the single vertical bar `|`. Much like the `or` keyword, this allows us to check for multiple values in the same `case` statement.
 
 
-You now have the power within Python to use **conditional statements to ask questions** and have your program **take action accordingly**! With tools like `if` , `elif` , and `else`, your program can respond to different conditions and make decisions dynamically.
+Finally, You now have the power within Python to use **conditional statements to ask questions** and have your program **take action accordingly**! With tools like `if` , `elif` , and `else`, your program can respond to different conditions and make decisions dynamically.
