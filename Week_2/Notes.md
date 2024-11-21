@@ -23,7 +23,7 @@
 
 - [Mario](#mario)
 
-- [Summing Up](#Summing-Up)
+- [Summing Up](#summing-up)
 
 ## loops
 
@@ -412,8 +412,13 @@ main()
 You now have another power in your growing list of your Python abilities. In this lecture, we addressed…
 
 1. loops 
+
 2. `while`
+
 3. `for`
+
 4. `len`
+
 5. `list`
+
 6. `disc`
