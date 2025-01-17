@@ -130,7 +130,7 @@ Now, we're going to write our first Python program. We'll include another functi
 
 ```py
     input("What's your name ? ")
-    print("hell, world")
+    print("hello, world")
 ```
 
 This program currently does not display the user's input. To do that, we need to introduce variables. Variables will help us store and use the input provided by the user.
