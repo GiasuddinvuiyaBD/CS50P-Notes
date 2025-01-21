@@ -204,7 +204,7 @@ If we want to see all of the value from a lists we can perfom a loop.
 **Example:**
 ```py 
 def main():
-    students = ["Brithy akter", "Fatame tuljannat", "Fatiha"]
+    students = ["Brithy akter", "Fatema tuljannat", "Fatiha"]
     for student in students):
         print(student)
 ```
