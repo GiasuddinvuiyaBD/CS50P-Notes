@@ -19,7 +19,6 @@ This repository contains my notes, exercises, and additional resources from the 
 2. [Week 1 - Conditionals](Week_1/Notes.md)
 3. [Week 2 - loops](Week_2/Notes.md)
 
-
 ---
 
 ## 🚀 How to Use
