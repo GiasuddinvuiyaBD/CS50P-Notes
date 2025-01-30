@@ -20,7 +20,6 @@ This repository contains my notes, exercises, and additional resources from the 
 3. [Week 2 - loops](Week_2/Notes.md)
 
 
-
 ---
 
 ## 🚀 How to Use
