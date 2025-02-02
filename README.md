@@ -11,9 +11,7 @@ This repository contains my notes, exercises, and additional resources from the 
 - 📝 Notes are written in Markdown format for easy reading.
 - 💡 Exercises and problem sets for each week are included in separate folders.
 
-
 ---
-
 
 ## 📅 Weeks Covered
 
