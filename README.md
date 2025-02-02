@@ -14,6 +14,7 @@ This repository contains my notes, exercises, and additional resources from the 
 
 ---
 
+
 ## 📅 Weeks Covered
 
 1. [Week 0 - Functions, Variables](Week_0/Notes.md)  
