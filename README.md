@@ -25,7 +25,6 @@ This repository contains my notes, exercises, and additional resources from the 
 ## 🚀 How to Use
 Feel free to explore each week's folder for notes and exercises.
 
-
 ---
 
 ## 🛠️ Tech Used
