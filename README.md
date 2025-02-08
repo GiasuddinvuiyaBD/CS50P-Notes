@@ -26,10 +26,10 @@ This repository contains my notes, exercises, and additional resources from the 
 Feel free to explore each week's folder for notes and exercises.
 
 ---
-
 ## 🛠️ Tech Used
 - **Python**: The course focuses on Python programming language.
 - **CS50P**: Introduction to programming using Python and problem sets.
+
 
 ---
 
